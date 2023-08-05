@@ -1,1 +1,47 @@
+<!DCOTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label">Name<input id="name" type="text" placeholder="Enter Your Name" required></label>
+      <label id="email-label">Email<input id="email" type="email" placeholder="Enter Your Email" required></label>
+      <label id="number-label">Age<input id="number" type="number" min="18" max="60" placeholder="Age"></label>
+      <p>Which option best describes your current role?</p>
+       <select id="dropdown">
+         <option>Select Current role</option>
+         <option>Student</option>
+         <option>Full Time Job</option>
+         <option>Full Time Learner</option>
+         <option>Preffer not to say</option>
+         <option>Other</option>
+       </select>
+       <p>Would you recommend freeCodeCamp to a friend?</p>
+       <label><input type="radio" name="user-recommend" value="definitely">Definitely</label>
+        <label><input type="radio" name="user-recommend" value="maybe">Maybe</label>
+         <label><input type="radio" name="user-recommend" value="not sure">Not Sure</label>
 
+          <p>What is your favorite feature of freeCodeCamp?</p>
+       <select id="dropdown">
+         <option>Select an option</option>
+         <option>Challenges</option>
+         <option>Projects</option>
+         <option>Community</option>
+         <option>Open Source</option>
+       </select>
+
+       <p>What would you like to see improved? </p>
+       <label><input type="checkbox" name="user-recommend" value="definitely">Definitely</label>
+        <label><input type="checkbox" name="user-recommend" value="maybe">Maybe</label>
+         <label><input type="checkbox" name="user-recommend" value="not sure">Not Sure</label>
+         <p>Comment</p>
+         <textarea></textarea>
+         <button type="submit" id="submit">
+    </form>
+  </body>
+</html>
